@@ -14,7 +14,7 @@
 |---|---|
 | [`technical-proposal.pdf`](technical-proposal.pdf) | **直接看这个。** 版式、分页与 Word 里完全一致 |
 | [`technical-proposal.md`](technical-proposal.md) | 同一份内容的纯文本版：标题、表格、插图、提示块、代码块都在，便于检索与逐段引用 |
-| `technical-proposal.docx` | Word 原件，需要批注或摘用样式时用 |
+| [`technical-proposal.docx`](technical-proposal.docx) | Word 原件，需要批注或摘用样式时用 |
 
 插图的 SVG 在 `figures/`，Markdown 引用的就是它，GitHub 直接渲染；界面截图同样是 Markdown 引的
 PNG。只有 docx 自己用的位图回退不放在这里——没有读者会打开那个文件。
