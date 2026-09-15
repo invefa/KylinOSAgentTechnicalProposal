@@ -6,15 +6,17 @@
 知识结构化与关联检索、记忆在短期、中期与长期之间的流转，另附银河麒麟 V11 的部署指南、
 用户手册与量化评测。
 
-这个仓库只放这份文档，方便阅读与传阅；生成文档的工具链与源码在别处，不在这里。
+这个仓库只放这份文档，方便在线阅读与传阅；生成文档的工具链与源码在别处，不在这里。
 
 ## 三份文件
 
 | 文件 | 用途 |
 |---|---|
 | [`technical-proposal.pdf`](technical-proposal.pdf) | **直接看这个。** 版式、分页与 Word 里完全一致 |
-| [`technical-proposal.md`](technical-proposal.md) | 同一份内容的纯文本版：标题、表格、图注、提示块、代码块都在，便于检索与逐段引用 |
+| [`technical-proposal.md`](technical-proposal.md) | 同一份内容的纯文本版：标题、表格、插图、提示块、代码块都在，便于检索与逐段引用 |
 | `technical-proposal.docx` | Word 原件，需要批注或摘用样式时用 |
+
+插图的 SVG 与 PNG 都在 `figures/`：Markdown 里引用的是 SVG，PNG 是老版本浏览器的回退。
 
 三份都是**由源码生成的产物**，不要直接编辑——下次生成会整份覆盖。文字内容以 PDF 为准；
 Markdown 在窄表格上会折行，是渲染宽度所限，与 PDF 不矛盾。

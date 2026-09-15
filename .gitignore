@@ -1,7 +1,7 @@
 # Word lock files, created while the document is open in Word
 ~$*
 
-# The generator's fallback name, used when Word holds the real deliverable
+# The builder's fallback name, used when Word holds the real deliverable
 *-new.docx
 
 # Temporary XPS exports, should any audit tool be pointed at this directory

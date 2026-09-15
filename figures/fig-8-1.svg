@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="860px" height="432px" viewBox="0 0 860 432" style="background:#ffffff;color-scheme:light;">
+<rect x="0" y="0" width="860" height="432" fill="#ffffff"/>
+<path d="M 190 86 L 190 111 L 190 111 L 190 136" fill="none" stroke="#44546A" stroke-width="1.5"/>
+<path d="M 190 136 L 183 129 L 197 129 Z" fill="#44546A"/>
+<text x="190" y="106" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#4A5568">热度 ≥ 阈值</text>
+<path d="M 190 212 L 190 237 L 190 237 L 190 262" fill="none" stroke="#44546A" stroke-width="1.5"/>
+<path d="M 190 262 L 183 255 L 197 255 Z" fill="#44546A"/>
+<text x="190" y="232" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#4A5568">质量分达标</text>
+<rect x="10" y="10" width="360" height="76" fill="#E8EDF3" stroke="#44546A" stroke-width="1.5"/>
+<text x="190" y="42.88" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="bold" fill="#1F2328">短期记忆</text>
+<text x="190" y="64" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="normal" fill="#1F2328">原始交互 · 工具执行结果</text>
+<rect x="10" y="136" width="360" height="76" fill="#E8EDF3" stroke="#44546A" stroke-width="1.5"/>
+<text x="190" y="168.88" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="bold" fill="#1F2328">中期记忆</text>
+<text x="190" y="190" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="normal" fill="#1F2328">聚合片段 · 按有效热度淘汰</text>
+<rect x="10" y="262" width="360" height="76" fill="#E8EDF3" stroke="#44546A" stroke-width="1.5"/>
+<text x="190" y="294.88" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="bold" fill="#1F2328">长期记忆</text>
+<text x="190" y="316" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="normal" fill="#1F2328">偏好版本链 · 知识结构化</text>
+<rect x="460" y="10" width="390" height="76" fill="#F4F6F8" stroke="#8A94A6" stroke-width="1"/>
+<text x="655" y="43.52" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="bold" fill="#1F2328">写入交互</text>
+<text x="655" y="62" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="normal" fill="#1F2328">新交互先落短期；会话结束或容量满进入晋升候选</text>
+<rect x="460" y="136" width="390" height="76" fill="#F4F6F8" stroke="#8A94A6" stroke-width="1"/>
+<text x="655" y="169.52" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="bold" fill="#1F2328">聚合交互</text>
+<text x="655" y="188" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="normal" fill="#1F2328">同义碎片按向量余弦与关键词加权合并，再抽象提炼</text>
+<rect x="460" y="262" width="390" height="76" fill="#F4F6F8" stroke="#8A94A6" stroke-width="1"/>
+<text x="655" y="295.52" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="bold" fill="#1F2328">读取与遗忘交互</text>
+<text x="655" y="314" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="normal" fill="#1F2328">召回只查长期层；遗忘按 短、中、长 依次级联清理</text>
+<rect x="10" y="374" width="840" height="48" fill="#FFFFFF" stroke="#8A94A6" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="430" y="402.76" text-anchor="middle" font-family="Helvetica, Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="normal" fill="#4A5568">偏好与知识共用同一流转链，但读取路径分离：偏好注入结构化画像，知识走向量关联检索</text>
+</svg>
