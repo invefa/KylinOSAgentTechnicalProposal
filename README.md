@@ -16,8 +16,8 @@
 | [`technical-proposal.md`](technical-proposal.md) | 同一份内容的纯文本版：标题、表格、插图、提示块、代码块都在，便于检索与逐段引用 |
 | `technical-proposal.docx` | Word 原件，需要批注或摘用样式时用 |
 
-插图的 SVG 在 `figures/`，Markdown 引用的就是它，GitHub 直接渲染。只有一种格式：
-生成所依赖的位图回退是给 docx 用的，与这份 Markdown 无关，所以不放在这里。
+插图的 SVG 在 `figures/`，Markdown 引用的就是它，GitHub 直接渲染；界面截图同样是 Markdown 引的
+PNG。只有 docx 自己用的位图回退不放在这里——没有读者会打开那个文件。
 
 三份都是**由源码生成的产物**，不要直接编辑——下次生成会整份覆盖。文字内容以 PDF 为准；
 Markdown 在窄表格上会折行，是渲染宽度所限，与 PDF 不矛盾。
